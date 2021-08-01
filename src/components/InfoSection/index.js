@@ -9,7 +9,6 @@ import {
         Column2,
         TextWrapper,
         TopLine,
-        HeadingH1,
         HeadingH2,
         SubTitle,
         BtnWrap,
