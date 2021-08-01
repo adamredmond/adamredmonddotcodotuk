@@ -14,3 +14,20 @@ export const homeObjOne = {
     primary: true,
     darkText: false
 }
+
+export const homeObjTwo = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Website Development',
+    headLine: 'Powerful, responsive websites',
+    description: 'Shopify, Woocommerce, Magento',
+    buttonLabel: 'button label data',
+    imgStart: true,
+    img: require('../../images/services3.svg').default,
+    alt: 'whopps',
+    dark: true,
+    primary: true,
+    darkText: false
+}

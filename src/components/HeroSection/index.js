@@ -40,8 +40,9 @@ const HeroSection = () => {
                     </Button>
                 </HeroBtnWrapper>
                 </HeroContent>
-            
+                
         </HeroContainer>
+        
     )
 }
 

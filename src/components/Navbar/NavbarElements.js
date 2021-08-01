@@ -100,10 +100,10 @@ export const NavBtnLink = styled(LinkR)
 border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;
-padding-right 20%;
-padding-left 20%;
-padding-top: 10%;
-padding-bottom: 10%;
+padding-right 15%;
+padding-left 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 color: #010606;
 font-size: 16px;
 outline: none;
@@ -112,6 +112,7 @@ cursor: pointer;
 transition: all 0.2 ease-in-out;
 text-decoration: none;
 margin-left: 15px;
+margin-right: 55px;
 
 &:hover {
     transition: all 0.2 ease-in-out;

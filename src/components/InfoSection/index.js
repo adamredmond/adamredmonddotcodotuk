@@ -32,7 +32,6 @@ const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, ligh
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
-                <HeadingH1 lightText={lightText}>About</HeadingH1>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
