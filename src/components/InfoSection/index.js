@@ -51,9 +51,7 @@ const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, ligh
                             dark={dark ? 1 : 0}
                             dark2={dark2 ? 1 : 0}
                             onMouseEnter={onHover}
-                            onMouseLeave={onHover}
-                            primary='true'
-                            dark='true'>
+                            onMouseLeave={onHover}>
                             Salesforce {hover ? <ArrowForward /> : <ArrowRight />}
                             </Button>
                             </BtnWrap>

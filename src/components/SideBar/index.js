@@ -5,8 +5,6 @@ import {
     CloseIcon,
     SidebarMenu,
     SidebarLink,
-    SideBtnWrapper,
-    SidebarRoute,
     SidebarWrapper
 } from './SidebarElements.js'
 
