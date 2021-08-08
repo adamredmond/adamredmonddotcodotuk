@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom'
 
 export const ServicesContainer = styled.div `
 height: 800px;
@@ -36,7 +37,7 @@ padding: 0 50px;
 }
 `;
 
-export const ServicesCard = styled.div `
+export const ServicesCard = styled(LinkR) `
 background: white;
 display: flex;
 flex-direction: column;

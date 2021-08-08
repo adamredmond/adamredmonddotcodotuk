@@ -12,6 +12,7 @@ import {
         HeadingH2,
         SubTitle,
         BtnWrap,
+        ColumnImg,
         Img
     } from './InfoElements'
 
@@ -20,7 +21,7 @@ import {
         ArrowRight
         } from '../HeroSection/HeroElements';
 
-const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt}) => {
+const InfoSection = ({btnText, primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt}) => {
     
     const [hover, setHover] = useState(false)
 
@@ -34,12 +35,17 @@ const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, ligh
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
+                        <ColumnImg>
+                        <ImgWrap>
+                        <Img src={img} alt={alt}/>
+                        </ImgWrap>
+                        </ColumnImg>
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
                             <HeadingH2 lightText={lightText}>{headLine}</HeadingH2>
                             <SubTitle darkText={darkText}>{description}</SubTitle>
                             <BtnWrap>
-                            <Button to='home'
+                            <Button to='contact'
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -50,7 +56,7 @@ const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, ligh
                             dark2={dark2 ? 1 : 0}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
-                            Salesforce {hover ? <ArrowForward /> : <ArrowRight />}
+                            {btnText} {hover ? <ArrowForward /> : <ArrowRight />}
                             </Button>
                             </BtnWrap>
                         </TextWrapper>

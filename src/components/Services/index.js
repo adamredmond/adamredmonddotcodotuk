@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     ServicesContainer,
     ServicesH1,
@@ -9,19 +9,21 @@ import {
     ServicesCard
 } from './ServicesElements'
 
-import Icon1 from '../../images/services1.svg'
+import silverClosetShop from '../../images/silverclosetshop.jpeg'
 import Icon2 from '../../images/services2.svg'
 import Icon3 from '../../images/services3.svg'
 
 const Services = () => {
+
+  
     return (
         <ServicesContainer id='projects'>
             <ServicesH1>Projects</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard>
-                    <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Salesforce</ServicesH2>
-                    <ServicesP>Salesforce Constultancy</ServicesP>
+                <ServicesCard to={"https://www.google.com"}>
+                    <ServicesIcon src={silverClosetShop}/>
+                    <ServicesH2>Silver Closet Shop</ServicesH2>
+                    <ServicesP>Online clothing retailer</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>

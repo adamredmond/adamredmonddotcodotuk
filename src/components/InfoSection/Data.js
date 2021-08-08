@@ -1,33 +1,35 @@
-export const homeObjOne = {
+export const infoSalesforce = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Salesforce',
-    headLine: 'Salesforce CRM, powerful business applications.',
+    headLine: '',
     description: 'I am a Salesforce Consultant at Manycode t/a Tether. I have ran over 150 projects.',
     buttonLabel: 'button label data',
     imgStart: false,
-    img: require('../../images/services1.svg').default,
+    img: require('../../images/salesforcelogo.png').default,
     alt: 'whopps',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    btnText: 'More on Salesforce'
 }
 
-export const homeObjTwo = {
+export const infoWebDev = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Website Development',
-    headLine: 'Powerful, responsive websites',
-    description: 'Shopify, Woocommerce, Magento',
+    headLine: ' ',
+    description: 'Websites and E-commerce stores built using the exact technology that suits you as a business',
     buttonLabel: 'button label data',
     imgStart: true,
-    img: require('../../images/services3.svg').default,
+    img: require('../../images/websiteService.svg').default,
     alt: 'whopps',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    btnText: 'More on Web Development'
 }
