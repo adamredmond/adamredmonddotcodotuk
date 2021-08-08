@@ -8,8 +8,6 @@ import {
     SidebarWrapper
 } from './SidebarElements.js'
 
-import { NavBtn, NavBtnLink } from '../Navbar/NavbarElements.js'
-
 const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
