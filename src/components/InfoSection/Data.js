@@ -5,7 +5,7 @@ export const infoSalesforce = {
     lightTextDesc: true,
     topLine: 'Salesforce',
     headLine: '',
-    description: 'I am a Salesforce Consultant at Manycode t/a Tether. I have ran over 150 projects.',
+    description: 'I am a Salesforce Consultant at Manycode t/a Tether. I been involved in over 150 projects.',
     buttonLabel: 'button label data',
     imgStart: false,
     img: require('../../images/salesforcelogo.png').default,
@@ -13,7 +13,8 @@ export const infoSalesforce = {
     dark: true,
     primary: true,
     darkText: false,
-    btnText: 'More on Salesforce'
+    btnText: 'More on Salesforce',
+    urlLink: 'https://tether.ie/salesforce'
 }
 
 export const infoWebDev = {
@@ -31,5 +32,6 @@ export const infoWebDev = {
     dark: true,
     primary: true,
     darkText: false,
-    btnText: 'More on Web Development'
+    btnText: 'More on Web Development',
+    urlLink: 'https://www.wordpress.com'
 }

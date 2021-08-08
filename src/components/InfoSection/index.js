@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Button } from '../ButtonElements'
+import {ButtonExternal} from '../ButtonElements'
 import { 
         ImgWrap,
         InfoContainer,
@@ -21,7 +21,7 @@ import {
         ArrowRight
         } from '../HeroSection/HeroElements';
 
-const InfoSection = ({btnText, primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt}) => {
+const InfoSection = ({urlLink, btnText, primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt}) => {
     
     const [hover, setHover] = useState(false)
 
@@ -45,7 +45,7 @@ const InfoSection = ({btnText, primary, dark, dark2, lightBg, id, imgStart, topL
                             <HeadingH2 lightText={lightText}>{headLine}</HeadingH2>
                             <SubTitle darkText={darkText}>{description}</SubTitle>
                             <BtnWrap>
-                            <Button to='contact'
+                            <ButtonExternal to={{ pathname: urlLink }} target="_blank"
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -57,7 +57,7 @@ const InfoSection = ({btnText, primary, dark, dark2, lightBg, id, imgStart, topL
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
                             {btnText} {hover ? <ArrowForward /> : <ArrowRight />}
-                            </Button>
+                            </ButtonExternal>
                             </BtnWrap>
                         </TextWrapper>
                         </Column1>

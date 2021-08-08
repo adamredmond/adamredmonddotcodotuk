@@ -6,9 +6,11 @@ import Sidebar from '../components/SideBar'
 import InfoSection from '../components/InfoSection'
 import { infoSalesforce } from '../components/InfoSection/Data';
 import { infoWebDev } from '../components/InfoSection/Data';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
 const [isOpen, setIsOpen] = useState(false);
+
 
 const toggle = () => {
     setIsOpen(!isOpen);
@@ -22,6 +24,7 @@ const toggle = () => {
         <InfoSection {...infoSalesforce}/>
         <InfoSection {...infoWebDev}/>
         <Services />
+        <ContactSection />
         </>
     )
 }
