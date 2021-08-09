@@ -46,6 +46,7 @@ margin-bottom: 64px;
 
 export const ContactH2 = styled.h2 `
 font-size: 1rem;
+text-align: center;
 align-items: center;
 color: white;
 margin-bottom: 10px;

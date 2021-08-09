@@ -5,7 +5,7 @@ export const infoSalesforce = {
     lightTextDesc: true,
     topLine: 'Salesforce',
     headLine: '',
-    description: 'I am a Salesforce Consultant at Manycode t/a Tether. I been involved in over 150 projects.',
+    description: 'I am a Salesforce Consultant at Manycode t/a Tether. I have been involved in over 150 projects.',
     buttonLabel: 'button label data',
     imgStart: false,
     img: require('../../images/salesforcelogo.png').default,

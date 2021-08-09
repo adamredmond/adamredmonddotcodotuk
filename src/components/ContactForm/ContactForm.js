@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Select from 'react-select'
 
 export const Form = styled.form`
    width: 100%;
@@ -47,4 +48,15 @@ color: white;
 
 export const FormP = styled.p`
 color: white;
+`;
+
+export const FormPickList = styled(Select)`
+width: 100%;
+color: black;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
 `;

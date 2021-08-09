@@ -8,9 +8,7 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks,
-    NavBtn,
-    NavBtnLink
+    NavLinks
 } from './NavbarElements.js';
 
 
@@ -52,15 +50,12 @@ const Navbar = ({toggle}) => {
                     </NavItem>
                     <NavItem>
                         <NavLinks to='projects'
-                        smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
+                        smooth={true} duration={500} spy={true} exact='true' offset={-100}>Projects</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='contact'
-                        smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact</NavLinks>
+                        smooth={true} duration={500} spy={true} exact='true' offset={-50}>Challenge Me</NavLinks>
                     </NavItem>
-                    <NavBtn>
-                        <NavBtnLink to='/'>Challenge Me</NavBtnLink>
-                    </NavBtn>
                 </NavMenu>
             </NavbarContainer>
         </Nav>

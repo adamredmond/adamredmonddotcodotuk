@@ -73,6 +73,23 @@ cursor: pointer;
 }
 `
 
+export const NavLinkFeatured = styled(LinkS)
+`
+color: black;
+background: #3399ff;
+display:flex;
+border-radius: 20px;
+align-items: center;
+text-decoration: none;
+margin-top:10px;
+height:75%;
+cursor: pointer;
+
+&.active{
+    border-bottom: 3px solid #3399ff
+}
+`
+
 export const NavLogo = styled(LinkR)
 `
 color: white;

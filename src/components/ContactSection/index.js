@@ -2,7 +2,6 @@ import React from 'react';
 import {
     ContactContainer,
     ContactH1,
-    ContactH2,
     ContactWrapper
 } from './ContactElements'
 
@@ -13,9 +12,8 @@ const Services = () => {
   
     return (
         <ContactContainer id='contact'>
-            <ContactH1>Contact</ContactH1>
+            <ContactH1>Lets talk about your project</ContactH1>
             <ContactWrapper>
-                <ContactH2>Hey, lets talk about your project</ContactH2>
                 <ContactForm />
             </ContactWrapper>
         </ContactContainer>

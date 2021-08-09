@@ -16,9 +16,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
-                    <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
+                    <SidebarLink to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80} onClick={toggle} >About</SidebarLink>
+                    <SidebarLink to="projects" smooth={true} duration={500} spy={true} exact='true' offset={+20} onClick={toggle}>Projects</SidebarLink>
+                    <SidebarLink to="contact" smooth={true} duration={500} spy={true} exact='true' offset={+210} onClick={toggle}>Challenge Me</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>
